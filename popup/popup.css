@@ -1,0 +1,16 @@
+:root {
+  --bg-color: #fafafa;
+  --text-color: #000000; 
+  --link-color: #4a3b23;
+}
+
+:root[data-theme="dark"] {
+  --bg-color: #000000;
+  --text-color: #fafafa;
+  --link-color: #4a3b23;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
